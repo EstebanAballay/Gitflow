@@ -3,6 +3,6 @@ class Producto:
         self.nombre = nombre
         self.precio = precio
     
-    def  calcularIVA(precio):
-        print("Calculando IVA para", precio)
+    def  calcularIVA(precio): 
         return precio * 1.21
+    
