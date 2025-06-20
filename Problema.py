@@ -4,6 +4,10 @@ class Producto:
         self.precio = precio
     
     def  calcularIVA(precio): 
+<<<<<<< HEAD
         print("Calculando IVA sobre: ", precio)
         return precio * 1.21
+=======
+        return precio * 1.19
+>>>>>>> feature/dos
     
